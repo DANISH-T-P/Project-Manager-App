@@ -1,7 +1,19 @@
-# Project-Manager-App
-A Flutter Based Project Manager App (Flutter + FireBase)
+# Project Manager App 📋
 
-Screens : 
+A Flutter app to manage projects with Firebase integration.
+
+## 🔥 Features
+- User auth with email, phone & OTP
+- Create / update / delete projects
+- Upload images & videos to Firebase Storage
+- View project details with map location
+
+## 🛠️ Tech Stack
+- Flutter
+- Firebase Auth, Firestore, Storage
+- GetX for state management
+
+## 📷 Screenshots
 
 ![Screenshot 2025-06-01 144539](https://github.com/user-attachments/assets/ca38084e-dedb-4df8-b914-3741fe3f163a)
 ![Screenshot 2025-06-01 144603](https://github.com/user-attachments/assets/6c86c875-f03a-480e-9dba-b2d4b677b9cb)
@@ -11,3 +23,12 @@ Screens :
 ![Screenshot 2025-06-02 115236](https://github.com/user-attachments/assets/6afc234e-0d57-469e-95bf-41dd0e6ce166)
 ![Screenshot 2025-06-02 115249](https://github.com/user-attachments/assets/79d52b54-cd64-43bd-9546-e18cf8f59753)
 ![Screenshot 2025-06-02 115308](https://github.com/user-attachments/assets/c5c58dd2-d786-430d-902a-57bf9e7336ef)
+
+
+## 🚀 Getting Started
+```bash
+git clone https://github.com/DANISH-T-P/project-manager.git
+cd project-manager
+flutter pub get
+flutter run
+
